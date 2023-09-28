@@ -22,9 +22,16 @@
             color: blue;
         }
 
-        table , tr , td {
+        table,
+        tr,
+        td {
             border: 1px red solid;
             border-collapse: collapse;
+            text-align: center;
+        }
+
+        table {
+            width: 80%;
         }
     </style>
 </head>
@@ -33,7 +40,7 @@
     <h1>table picsum</h1>
     <h3 id="testID">test id h3</h3>
     <h3 class="testClass">test class h3</h3>
-    
+
     <table>
 
         <tr>
@@ -42,8 +49,8 @@
             <th>文字介紹</th>
         </tr>
         <tr>
-            <td width="5%">1</td>
-            <td width="70%">
+            <td>1</td>
+            <td>
                 <a href="./views/f1.html">
                     <img src="https://picsum.photos/seed/picsum/200/300" alt="" srcset="">
                 </a>
@@ -51,8 +58,8 @@
             <td>服飾店</td>
         </tr>
         <tr>
-            <td width="5%">2</td>
-            <td width="70%">
+            <td>2</td>
+            <td>
                 <a href="./views/f2.html">
                     <img src="https://picsum.photos/200/300?grayscale" alt="" srcset="">
                 </a>
@@ -60,15 +67,17 @@
             <td>雜貨店</td>
         </tr>
         <tr>
-            <td width="5%">3</td>
-            <td width="70%">
+            <td>3</td>
+            <td>
                 <a href="./views/f3.html">
                     <img src="https://picsum.photos/200/300/?blur" alt="" srcset="">
                 </a>
             </td>
             <td>理髮店</td>
         </tr>
+
     </table>
+
 </body>
 
 </html>
